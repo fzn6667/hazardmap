@@ -1,0 +1,13 @@
+{
+  "name": "hazardmap",
+  "homepage": "https://<fzn6667>.github.io/hazardmap",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
